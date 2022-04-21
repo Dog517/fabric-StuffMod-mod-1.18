@@ -8,7 +8,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModPaintings {
 
-    public static final PaintingMotive RICK = RegisterPaintings("rick", new PaintingMotive(16,16));
+    public static final PaintingMotive RICK = RegisterPaintings("rick", new PaintingMotive(32,32));
 
 
 

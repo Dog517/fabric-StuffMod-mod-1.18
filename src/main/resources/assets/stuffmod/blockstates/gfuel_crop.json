@@ -1,0 +1,13 @@
+
+{
+  "variants": {
+    "age=0": { "model": "stuffmod:block/gfuel_crop0" },
+    "age=1": { "model": "stuffmod:block/gfuel_crop1" },
+    "age=2": { "model": "stuffmod:block/gfuel_crop2" },
+    "age=3": { "model": "stuffmod:block/gfuel_crop3" },
+    "age=4": { "model": "stuffmod:block/gfuel_crop4" },
+    "age=5": { "model": "stuffmod:block/gfuel_crop5" },
+    "age=6": { "model": "stuffmod:block/gfuel_crop6" },
+    "age=7": { "model": "stuffmod:block/gfuel_crop7" }
+  }
+}
