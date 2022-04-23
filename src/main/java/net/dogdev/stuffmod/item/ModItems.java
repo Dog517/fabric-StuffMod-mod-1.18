@@ -48,6 +48,7 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
 
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(StuffMod.MOD_ID, name), item);
     }

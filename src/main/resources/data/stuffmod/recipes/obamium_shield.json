@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "XXX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_block"
+    },
+    "Z": {
+      "item": "stuffmod:obamium"
+    }
+  },
+  "result": {
+    "item": "stuffmod:obama_shield"
+  }
+}

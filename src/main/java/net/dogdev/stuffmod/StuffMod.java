@@ -1,10 +1,16 @@
 package net.dogdev.stuffmod;
 
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricBannerShieldItem;
 import net.dogdev.stuffmod.block.ModBlocks;
 import net.dogdev.stuffmod.item.ModItems;
 import net.dogdev.stuffmod.painting.ModPaintings;
 import net.dogdev.stuffmod.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -14,7 +20,7 @@ public class StuffMod implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 
-
+	public static final Item OBAMA_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(999999999).group(ItemGroup.COMBAT), 100, 50, ModItems.OBAMIUM); // FabricShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
 	public static final String MOD_ID = "stuffmod";
 	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
@@ -28,6 +34,7 @@ public class StuffMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModWorldGen.generateModWorldGen();
+		Registry.register(Registry.ITEM, new Identifier("stuffmod", "obama_shield"), OBAMA_SHIELD);
 
 		LOGGER.info("Hello Fabric world!");
 	}
