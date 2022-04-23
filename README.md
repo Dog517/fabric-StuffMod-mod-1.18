@@ -1,4 +1,4 @@
-# Fabric Meme
+# Fabric Meme Mod
 
 ## Setup
 
