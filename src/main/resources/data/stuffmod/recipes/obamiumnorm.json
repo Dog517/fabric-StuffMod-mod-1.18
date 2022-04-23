@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "stuffmod:stone_obamium_ore"
+  },
+  "result": "stuffmod:obamium",
+  "experience": 0.35,
+  "cookingtime": 250
+}

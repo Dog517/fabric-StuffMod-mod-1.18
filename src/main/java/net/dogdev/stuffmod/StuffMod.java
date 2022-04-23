@@ -3,14 +3,10 @@ package net.dogdev.stuffmod;
 import net.dogdev.stuffmod.block.ModBlocks;
 import net.dogdev.stuffmod.item.ModItems;
 import net.dogdev.stuffmod.painting.ModPaintings;
+import net.dogdev.stuffmod.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import static net.dogdev.stuffmod.painting.ModPaintings.RICK;
 
 
 public class StuffMod implements ModInitializer {
@@ -31,6 +27,7 @@ public class StuffMod implements ModInitializer {
 		ModPaintings.registerPainting();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGen.generateModWorldGen();
 
 		LOGGER.info("Hello Fabric world!");
 	}

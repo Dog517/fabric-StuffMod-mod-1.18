@@ -1,13 +1,13 @@
 package net.dogdev.stuffmod.block;
 
+import net.dogdev.stuffmod.StuffMod;
 import net.dogdev.stuffmod.block.custom.GFuelCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.dogdev.stuffmod.StuffMod;
-import net.dogdev.stuffmod.block.custom.*;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Material;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -26,7 +26,10 @@ public class ModBlocks {
 
     public static final Block GFUEL_CROP = registerBlockWithoutBlockItem("gfuel_crop",
             new GFuelCropBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()), ItemGroup.FOOD);
-    public static final Block OBAMIUM_ORE = registerBlock("obamium_ore", new Block(FabricBlockSettings.copy(Blocks.DIAMOND_ORE)), ItemGroup.MATERIALS);
+    public static final Block STONE_OBAMIUM_ORE = registerBlock("stone_obamium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MATERIALS);
+    public static final Block DEEPSlATE_OBAMIUM_ORE = registerBlock("deepslate_obamium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MATERIALS);
 
 
 

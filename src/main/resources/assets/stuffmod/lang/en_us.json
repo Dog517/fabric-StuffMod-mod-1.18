@@ -1,5 +1,16 @@
 {
   "item.stuffmod.obamium_sword": "Obamium Sword",
   "item.stuffmod.gfuel_seeds": "Gfuel Seeds",
-  "item.stuffmod.gfuel": "Gfuel"
+  "item.stuffmod.gfuel": "Gfuel",
+  "item.stuffmod.obamium": "Obamium",
+  "block.stuffmod.stone_obamium_ore": "Obamium Ore",
+  "block.stuffmod.deepslate_obamium_ore": "Deepslate Obamium Ore",
+  "item.stuffmod.obamium_pickaxe": "Obamium Pickaxe",
+  "item.stuffmod.obamium_axe": "Obamium Axe",
+  "item.stuffmod.obamium_shovel": "Obamium Shovel",
+  "item.stuffmod.obamium_hoe": "Obamium Hoe",
+  "item.stuffmod.obama_helmet": "Obamium Helmet",
+  "item.stuffmod.obama_leggings": "Obamium Leggings",
+  "item.stuffmod.obama_chestplate": "Obamium Chestplate",
+  "item.stuffmod.obama_boots": "Obamium Boots"
 }

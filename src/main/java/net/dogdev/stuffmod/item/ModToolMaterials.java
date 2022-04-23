@@ -1,14 +1,6 @@
 package net.dogdev.stuffmod.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.util.Lazy;
-
-import java.util.function.Supplier;
-
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
@@ -16,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
     public enum ModToolMaterials implements ToolMaterial {
-        OBAMA(MiningLevels.IRON, 560, 10.0f, 2.5f, 24, () -> Ingredient.ofItems(Items.DIRT));
+        OBAMA(MiningLevels.NETHERITE, 560, 15.0f, 2.5f, 100, () -> Ingredient.ofItems(ModItems.OBAMIUM));
 
         private final int miningLevel;
         private final int itemDurability;

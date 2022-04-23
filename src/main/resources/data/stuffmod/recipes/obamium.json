@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "stuffmod:deepslate_obamium_ore"
+  },
+  "result": "stuffmod:obamium",
+  "experience": 0.35,
+  "cookingtime": 250
+}
