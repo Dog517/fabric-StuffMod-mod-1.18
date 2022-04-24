@@ -30,6 +30,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MATERIALS);
     public static final Block DEEPSlATE_OBAMIUM_ORE = registerBlock("deepslate_obamium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MATERIALS);
+    public static final Block OBAMIUM_BLOCK = registerBlock("obamium_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(5.5f).requiresTool()), ItemGroup.MATERIALS);
 
 
 

@@ -23,7 +23,7 @@ public class ModItems {
             new ModShovelItems(ModToolMaterials.OBAMA, 3, -2f,
                     new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item OBAMA_HOE = registerItem("obamium_hoe",
-            new ModHoeItems(ModToolMaterials.OBAMA, 3, -2f,
+            new ModHoeItem(ModToolMaterials.OBAMA, 3, -2f,
                     new FabricItemSettings().group(ItemGroup.TOOLS)));
 
     public static final Item GFUEL_SEEDS = registerItem("gfuel_seeds",
@@ -32,7 +32,7 @@ public class ModItems {
     public static final Item GFUEL = registerItem("gfuel",
                     new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.GFUEL)));
     public static final Item OBAMIUM = registerItem("obamium",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC).food(ModFoodComponents.OBAMA)));
+            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.OBAMA)));
     
     public static final Item OBAMA_HELMET = registerItem("obama_helmet",
             new ArmorItem(ModArmorMaterials.OBAMA, EquipmentSlot.HEAD,
@@ -46,6 +46,8 @@ public class ModItems {
     public static final Item OBAMA_BOOTS = registerItem("obama_boots",
             new ArmorItem(ModArmorMaterials.OBAMA, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item OBAMA_BOW = registerItem("obama_bow",
+            new BowItem(new FabricItemSettings().group(ItemGroup.COMBAT)));
 
 
 

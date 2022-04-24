@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bow"},
+    { "item": "stuffmod:obamium" }
+  ],
+  "result": {
+    "item": "stuffmod:obama_bow",
+    "data": {
+      "Enchantments": [
+        {
+          "id": "minecraft:power",
+          "lvl": 25
+        }
+      ]
+    }
+  }
+}

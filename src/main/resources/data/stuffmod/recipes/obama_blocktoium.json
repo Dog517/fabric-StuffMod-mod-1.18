@@ -1,0 +1,10 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    { "item": "stuffmod:obamium_block" }
+  ],
+  "result": {
+    "item": "stuffmod:obamium",
+    "count": 9
+  }
+}

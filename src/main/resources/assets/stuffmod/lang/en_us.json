@@ -14,7 +14,6 @@
   "item.stuffmod.obama_chestplate": "Obamium Chestplate",
   "item.stuffmod.obama_boots": "Obamium Boots",
   "item.stuffmod.obama_shield": "Obamium Shield",
-  "item.stuffmod.obama_shield": "Obamium Shield",
   "item.stuffmod.obama_shield.red": "Red Obamium Shield",
   "item.stuffmod.obama_shield.orange": "Orange Obamium Shield",
   "item.stuffmod.obama_shield.yellow": "Yellow Obamium Shield",
@@ -31,5 +30,6 @@
   "item.stuffmod.obama_shield.light_gray": "Light Gray Obamium Shield",
   "item.stuffmod.obama_shield.gray": "Gray Obamium Shield",
   "item.stuffmod.obama_shield.dark_gray": "Dark Gray Obamium Shield",
-  "item.stuffmod.obama_shield.black": "Black Obamium Shield"
+  "item.stuffmod.obama_shield.black": "Black Obamium Shield",
+  "item.stuffmod.obama_bow": "Obamium Bow"
 }
