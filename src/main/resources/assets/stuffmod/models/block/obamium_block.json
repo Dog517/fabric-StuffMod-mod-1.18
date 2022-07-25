@@ -1,6 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "stuffmod:block/front"
+    "down": "stuffmod:block/bottom",
+	  "up": "stuffmod:block/back_or_top",
+	  "north": "stuffmod:block/front",
+	  "east": "stuffmod:block/sideleft",
+	  "south": "stuffmod:block/back_or_top",
+	  "west": "stuffmod:block/sideright",
+	  "particle": "stuffmod:block/front"
   }
 }

@@ -1,0 +1,13 @@
+
+{
+  "type": "stuffmod:brazil",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -485105919,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "stuffmod:brazilplains"
+    }
+  }
+}

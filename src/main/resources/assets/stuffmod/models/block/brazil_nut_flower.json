@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "stuffmod:block/brazil_nut_flower"
+  }
+}

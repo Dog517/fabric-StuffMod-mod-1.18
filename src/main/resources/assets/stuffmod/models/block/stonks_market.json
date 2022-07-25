@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stuffmod:block/stonkside",
+    "up": "stuffmod:block/stonkside",
+    "north": "stuffmod:block/stonksfront",
+    "east": "stuffmod:block/stonkside",
+    "south": "stuffmod:block/stonkside",
+    "west": "stuffmod:block/stonkside",
+    "particle": "stuffmod:block/stonkside"
+  }
+}

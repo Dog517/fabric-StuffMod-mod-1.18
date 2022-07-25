@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "stuffmod:block/obamium_block" }
+    "facing=north": { "model": "stuffmod:block/obamium_block" },
+    "facing=east": { "model": "stuffmod:block/obamium_block", "y": 90 },
+    "facing=south": { "model": "stuffmod:block/obamium_block", "y": 180 },
+    "facing=west": { "model": "stuffmod:block/obamium_block", "y": 270 }
   }
 }

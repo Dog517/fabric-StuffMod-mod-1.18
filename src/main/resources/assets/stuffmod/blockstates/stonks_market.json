@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stuffmod:block/stonks_market"
+    },
+    "facing=east": {
+      "model": "stuffmod:block/stonks_market",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stuffmod:block/stonks_market",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stuffmod:block/stonks_market",
+      "y": 270
+    }
+  }
+}

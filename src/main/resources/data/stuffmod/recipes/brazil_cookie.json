@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:wheat"
+    },
+    "Z": {
+      "item": "stuffmod:brazil_nuts"
+    }
+  },
+  "result": {
+    "item": "stuffmod:brazil_cookie",
+    "count": "3"
+  }
+}

@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
   "stuffmod:deepslate_obamium_ore",
-    "stuffmod:stone_obamium_ore"
+    "stuffmod:stone_obamium_ore",
+    "stuffmod:obamium_block",
+    "stuffmod:brazil_ore",
+    "stuffmod:brazil_frame"
   ]
 }

@@ -12,7 +12,9 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     OBAMA("obama", 500, new int[]{100, 100, 100, 100}, 100,
-            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 5.0f, 1.0f, () -> Ingredient.ofItems(ModItems.OBAMIUM));
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 5.0f, 1.0f, () -> Ingredient.ofItems(ModItems.OBAMIUM)),
+    BRAZIL("brazil", 600, new int[]{100, 100, 100, 100}, 150,
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 6.0f, 2.0f, () -> Ingredient.ofItems(ModItems.BRAZILLIUM));
 
     private static final int[] BASE_DURABILITY;
     private final String name;

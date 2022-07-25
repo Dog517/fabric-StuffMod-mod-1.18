@@ -8,7 +8,9 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
     public enum ModToolMaterials implements ToolMaterial {
-        OBAMA(MiningLevels.NETHERITE, 560, 15.0f, 2.5f, 100, () -> Ingredient.ofItems(ModItems.OBAMIUM));
+        OBAMA(MiningLevels.NETHERITE, 560, 15.0f, 2.5f, 100, () -> Ingredient.ofItems(ModItems.OBAMIUM)),
+        BRAZIL(MiningLevels.NETHERITE, 700, 20.0f, 2.5f, 150, () -> Ingredient.ofItems(ModItems.BRAZILLIUM));
+
 
         private final int miningLevel;
         private final int itemDurability;

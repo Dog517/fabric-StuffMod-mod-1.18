@@ -1,0 +1,10 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    { "item": "stuffmod:brazil_nuts" }
+  ],
+  "result": {
+    "item": "stuffmod:brazil_nut_flower",
+    "count": 1
+  }
+}

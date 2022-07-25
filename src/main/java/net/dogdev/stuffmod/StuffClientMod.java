@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 public class StuffClientMod implements ClientModInitializer {
 
     public static final EntityModelLayer OBAMA_SHIELD_MODEL_LAYER = new EntityModelLayer(new Identifier("stuffmod", "obama_shield"),"main");
+    public static final EntityModelLayer BRAZIL_SHIELD_MODEL_LAYER = new EntityModelLayer(new Identifier("stuffmod", "brazil_shield"),"main");
 
     @Override
     public void onInitializeClient() {
@@ -21,7 +22,20 @@ public class StuffClientMod implements ClientModInitializer {
         ClientSpriteRegistryCallback.event(SpriteAtlasTexture.BLOCK_ATLAS_TEXTURE).register((atlasTexture, registry) -> {
             registry.register(new Identifier("stuffmod", "entity/obama_shield"));
             registry.register(new Identifier("stuffmod", "entity/obama_shield_nopattern"));
+
+
         });
+        EntityModelLayerRegistry.registerModelLayer(BRAZIL_SHIELD_MODEL_LAYER, ShieldEntityModel::getTexturedModelData);
+        ClientSpriteRegistryCallback.event(SpriteAtlasTexture.BLOCK_ATLAS_TEXTURE).register((atlasTexture, registry) -> {
+            registry.register(new Identifier("stuffmod", "entity/brazil_shield"));
+            registry.register(new Identifier("stuffmod", "entity/brazil_shield_nopattern"));
+
+
+        });
+
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GFUEL_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BRAZIL_NUT_FLOWER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_BRAZIL_NUT_FLOWER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OBAMIUM_BLOCK, RenderLayer.getCutout());
     }
 }
