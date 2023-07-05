@@ -20,7 +20,6 @@ public class ModCowEnchantment extends Enchantment {
                         BlockPos position = target.getBlockPos();
                         String name = "John";
                         String name2 = "Jeff";
-                        //say i want to put the method DoStuff here, i have no clue on how to do thta. (im a newbie to java)
                         if (level == 1) {
                             EntityType.COW.spawn(world, null, Text.of(name), null, position,
                                     SpawnReason.TRIGGERED, true, true);

@@ -2,19 +2,19 @@ package net.dogdev.stuffmod.painting;
 
 import net.dogdev.stuffmod.StuffMod;
 import net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents;
-import net.minecraft.entity.decoration.painting.PaintingMotive;
+import net.minecraft.entity.decoration.painting.PaintingVariant;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModPaintings {
 
-    public static final PaintingMotive RICK = RegisterPaintings("rick", new PaintingMotive(32,32));
+    public static final PaintingVariant RICK = RegisterPaintings("rick", new PaintingVariant(32,32));
 
 
 
 
-        private static PaintingMotive RegisterPaintings(String name, PaintingMotive paintingMotive){
-            return Registry.register(Registry.PAINTING_MOTIVE, new Identifier(StuffMod.MOD_ID, name), paintingMotive);
+        private static PaintingVariant RegisterPaintings(String name, PaintingVariant paintingMotive){
+            return Registry.register(Registry.PAINTING_VARIANT, new Identifier(StuffMod.MOD_ID, name), paintingMotive);
         }
 
 

@@ -27,7 +27,7 @@ public class StuffMod implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 
 	public static final Item OBAMA_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(999999999).group(ItemGroup.COMBAT), 100, 50, ModItems.OBAMIUM); // FabricShieldItem(settings.maxDamage(durability), cooldownTicks, enchantability, repairItem)
-	public static final Item BRAZIL_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(999999999).group(ItemGroup.COMBAT), 100, 100, ModItems.BRAZILLIUM);
+	public static final Item BRAZIL_SHIELD = new FabricBannerShieldItem(new FabricItemSettings().maxDamage(999999999).group(ItemGroup.COMBAT), 100, 100, ModItems.BRAZILLIUM);
 	public static final String MOD_ID = "stuffmod";
 	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
@@ -40,7 +40,6 @@ public class StuffMod implements ModInitializer {
 		ModPaintings.registerPainting();
 		ModEnchantments.registerModEnchantments();
 		ModRegistries.registerModStuffs();
-		ModVillager.setupPOIs();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModWorldGen.generateModWorldGen();
